@@ -57,3 +57,11 @@ function populateList(myShoppingList) {
 
 let shoppingList = ["bread", "cheese", "green pepper"]
 populateList(shoppingList)
+
+function squarelist() {
+    const ul = document.querySelector("ul");
+    ul.classList.remove("circlelist")
+    ul.classList.add("squarelist")
+}
+
+squarelist()
